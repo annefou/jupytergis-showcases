@@ -9,6 +9,12 @@
       "@jupyterlab/collaboration-extension",
       "@jupyter/docprovider-extension"
     ],
-    "collaborative": false
+    "collaborative": false,
+    "settingsOverrides": {
+      "@jupyter/docprovider-extension:plugin": {
+        "defaultDrive": "local"
+      }
+    }
   }
 }
+
