@@ -10,7 +10,10 @@
     ],
     "collaborative": false,
     "federated_extensions": [
-      "@jupytergis/jupytergis-lab"
+      {
+        "name": "@jupytergis/jupytergis-lab"
+      }
     ]
   }
 }
+
