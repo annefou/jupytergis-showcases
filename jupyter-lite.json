@@ -15,6 +15,9 @@
         "defaultDrive": "local"
       }
     }
-  }
+  },
+  "jupyterlite_contents": [
+    "content"
+  ]
 }
 
