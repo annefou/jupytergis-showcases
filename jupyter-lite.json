@@ -6,8 +6,9 @@
       "jupyterlab-kernel-spy",
       "jupyterlab-tour",
       "@jupyter/collaboration-extension",
-      "@jupyterlab/collaboration-extension"
+      "@jupyter/docprovider-extension"
     ],
     "collaborative": false
   }
 }
+
