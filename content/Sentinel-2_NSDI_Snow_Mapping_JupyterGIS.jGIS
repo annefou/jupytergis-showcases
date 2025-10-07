@@ -1,0 +1,152 @@
+{
+  "layerTree": [
+    "93c8ebab-c150-4164-9c49-663f5f40f877",
+    "bf62e8cb-fbd9-4f46-bdc4-b78665a7184f",
+    "ffa98276-121d-44af-bea1-7f0602db0e99",
+    "8105f2bd-984d-4df0-a36b-f29b23039e24"
+  ],
+  "layers": {
+    "8105f2bd-984d-4df0-a36b-f29b23039e24": {
+      "filters": null,
+      "name": "Snow/Ice Classification (Colored: Red=Snow-free, Cyan=Snow)",
+      "parameters": {
+        "opacity": 0.7,
+        "source": "cd2a24c5-6c55-4095-b295-9e04648fbb50"
+      },
+      "type": "ImageLayer",
+      "visible": true
+    },
+    "93c8ebab-c150-4164-9c49-663f5f40f877": {
+      "filters": null,
+      "name": "OpenStreetMap",
+      "parameters": {
+        "opacity": 1.0,
+        "source": "a264971c-b996-430e-9c52-438f970fc424"
+      },
+      "type": "RasterLayer",
+      "visible": true
+    },
+    "bf62e8cb-fbd9-4f46-bdc4-b78665a7184f": {
+      "filters": null,
+      "name": "False Color Composite (SWIR-NIR-RED)",
+      "parameters": {
+        "opacity": 0.8,
+        "source": "ced8b98c-4dc5-4dfb-9503-dc2153fb7818"
+      },
+      "type": "ImageLayer",
+      "visible": true
+    },
+    "ffa98276-121d-44af-bea1-7f0602db0e99": {
+      "filters": null,
+      "name": "Snow/Ice Classification (Grayscale)",
+      "parameters": {
+        "color": null,
+        "opacity": 0.7,
+        "source": "0ec0a511-e196-4585-a12f-5921a59706cf",
+        "symbologyState": null
+      },
+      "type": "WebGlLayer",
+      "visible": true
+    }
+  },
+  "metadata": {},
+  "options": {
+    "bearing": 0.0,
+    "extent": [
+      1159866.1683832244,
+      5892459.631833141,
+      1244634.832751485,
+      5934652.871446558
+    ],
+    "latitude": 46.82499999999999,
+    "longitude": 10.8,
+    "projection": "EPSG:3857",
+    "zoom": 11.0
+  },
+  "schemaVersion": "0.5.0",
+  "sources": {
+    "0ec0a511-e196-4585-a12f-5921a59706cf": {
+      "name": "Snow/Ice Classification (Grayscale) Source",
+      "parameters": {
+        "interpolate": null,
+        "normalize": true,
+        "urls": [
+          {
+            "max": null,
+            "min": null,
+            "url": "jupytergis_data/snow_map_3857.tif"
+          }
+        ],
+        "wrapX": false
+      },
+      "type": "GeoTiffSource"
+    },
+    "a264971c-b996-430e-9c52-438f970fc424": {
+      "name": "OpenStreetMap Source",
+      "parameters": {
+        "attribution": "",
+        "bounds": [],
+        "htmlAttribution": "",
+        "interpolate": null,
+        "maxZoom": 24.0,
+        "minZoom": 0.0,
+        "provider": "",
+        "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "urlParameters": {}
+      },
+      "type": "RasterSource"
+    },
+    "cd2a24c5-6c55-4095-b295-9e04648fbb50": {
+      "name": "Snow/Ice Classification (Colored: Red=Snow-free, Cyan=Snow) Source",
+      "parameters": {
+        "coordinates": [
+          [
+            10.594911226161779,
+            46.91633912146499
+          ],
+          [
+            11.006367624070714,
+            46.91633912146499
+          ],
+          [
+            11.006367624070714,
+            46.7336498352729
+          ],
+          [
+            10.594911226161779,
+            46.7336498352729
+          ]
+        ],
+        "interpolate": null,
+        "path": "jupytergis_data/snow_map_colored.png"
+      },
+      "type": "ImageSource"
+    },
+    "ced8b98c-4dc5-4dfb-9503-dc2153fb7818": {
+      "name": "False Color Composite (SWIR-NIR-RED) Source",
+      "parameters": {
+        "coordinates": [
+          [
+            10.594911226161779,
+            46.91633912146499
+          ],
+          [
+            11.006367624070714,
+            46.91633912146499
+          ],
+          [
+            11.006367624070714,
+            46.7336498352729
+          ],
+          [
+            10.594911226161779,
+            46.7336498352729
+          ]
+        ],
+        "interpolate": null,
+        "path": "jupytergis_data/false_color.png"
+      },
+      "type": "ImageSource"
+    }
+  }
+}
