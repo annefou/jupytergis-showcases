@@ -6,14 +6,9 @@
       "jupyterlab-kernel-spy",
       "jupyterlab-tour",
       "@jupyter/collaboration-extension",
-      "@jupyterlab/collaboration-extension"
+      "@jupyterlab/collaboration-extension",
+      "@jupyter/docprovider-extension"
     ],
-    "collaborative": false,
-    "federated_extensions": [
-      {
-        "name": "@jupytergis/jupytergis-lab"
-      }
-    ]
+    "collaborative": false
   }
 }
-
