@@ -4,4 +4,4 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
-  - jupytergis-lite==0.13.3
+  - jupytergis-lite
