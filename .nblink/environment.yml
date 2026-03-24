@@ -1,6 +1,6 @@
 name: gis-nblink-environment
 channels:
-  - emscripten-forge
+  - emscripten-forge-4x
   - conda-forge
 dependencies:
   - xeus-python
