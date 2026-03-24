@@ -146,22 +146,22 @@
   "options": {
     "bearing": 0.0,
     "extent": [
-      -947111.8296104968,
-      6379511.273851236,
-      6493574.2517817,
-      9079878.609109942
+      1977462.2954611406,
+      7437676.591053373,
+      3467588.384743968,
+      8092719.165005465
     ],
-    "latitude": 56.85085162682819,
-    "longitude": 24.912359833154866,
+    "latitude": 57.02484209817874,
+    "longitude": 24.456861244168227,
     "projection": "EPSG:3857",
-    "zoom": 5.0
+    "zoom": 7.352823149246859
   },
   "schemaVersion": "0.5.0",
   "sources": {
     "04215fe0-9a28-4cb7-b468-39b50c19b082": {
       "name": "NPP 2024-07-16 to 2024-08-10 Source",
       "parameters": {
-        "interpolate": null,
+        "interpolate": false,
         "normalize": true,
         "urls": [
           {
@@ -177,7 +177,7 @@
     "0a536b52-543f-4b25-947d-e28bd33ebd9c": {
       "name": "NPP Latvia May 2024 Source",
       "parameters": {
-        "interpolate": null,
+        "interpolate": false,
         "normalize": true,
         "urls": [
           {
@@ -193,7 +193,7 @@
     "44e1e158-b091-4a7e-81ac-2aac1ceed4d8": {
       "name": "NPP 2024-05-01 to 2024-05-26 Source",
       "parameters": {
-        "interpolate": null,
+        "interpolate": false,
         "normalize": true,
         "urls": [
           {
@@ -227,7 +227,7 @@
             56.667529296874996
           ]
         ],
-        "interpolate": null,
+        "interpolate": false,
         "path": "forest_legend.png"
       },
       "type": "ImageSource"
@@ -235,7 +235,7 @@
     "5c2fde69-a669-4b20-be76-2e6332093eca": {
       "name": "NPP Latvia May 2024 Source",
       "parameters": {
-        "interpolate": null,
+        "interpolate": false,
         "normalize": true,
         "urls": [
           {
@@ -251,7 +251,7 @@
     "92341101-166d-439b-84cb-01fc2505cdd9": {
       "name": "NPP 2024-06-20 to 2024-07-16 Source",
       "parameters": {
-        "interpolate": null,
+        "interpolate": false,
         "normalize": true,
         "urls": [
           {
@@ -267,7 +267,7 @@
     "99df3553-428b-4f97-828d-c28b2c3c0b65": {
       "name": "NPP 2024-08-10 to 2024-09-04 Source",
       "parameters": {
-        "interpolate": null,
+        "interpolate": false,
         "normalize": true,
         "urls": [
           {
@@ -283,7 +283,7 @@
     "ba66a0a0-bea4-4b5e-adcc-644a7dd17d89": {
       "name": "NPP 2024-05-26 to 2024-06-20 Source",
       "parameters": {
-        "interpolate": null,
+        "interpolate": false,
         "normalize": true,
         "urls": [
           {
@@ -302,7 +302,7 @@
         "attribution": "",
         "bounds": [],
         "htmlAttribution": "",
-        "interpolate": null,
+        "interpolate": false,
         "maxZoom": 24.0,
         "minZoom": 0.0,
         "provider": "",
@@ -1070,5 +1070,6 @@
       },
       "type": "GeoJSONSource"
     }
-  }
+  },
+  "stories": {}
 }
